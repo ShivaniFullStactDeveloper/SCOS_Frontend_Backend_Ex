@@ -1,0 +1,241 @@
+/* ============================
+   Login Page — SchoolCoreOS
+   ============================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e8eaed;
+  height: 100%;
+  transition: background 0.3s ease;
+}
+
+/* ---- Page wrapper ---- */
+.page-wrapper {
+  background-color: #e8eaed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 16px 80px;
+}
+
+/* ---- Top-right icon buttons ---- */
+.top-right-icons {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+
+.icon-btn {
+  width: 44px;
+  height: 44px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.icon-btn:hover {
+  background: #f9fafb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+.icon-btn:active {
+  transform: translateY(0);
+}
+
+/* ---- Login card ---- */
+.login-card {
+  width: 100%;
+  max-width: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.09);
+  padding: 44px 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  /* margin-bottom: 100px; */
+  transition: background 0.3s ease;
+}
+
+/* ---- Logo ---- */
+.card-logo {
+  margin-bottom: 16px;
+}
+
+/* logo color change base on theme */
+.logo-img {
+  width: 50px;
+  height: auto;
+  color: black;
+}
+
+
+/* ---- Title ---- */
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+  margin-bottom: 28px;
+  transition: color 0.3s ease;
+}
+
+/* ---- Form ---- */
+.card-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ---- Inputs ---- */
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #111827;
+  background: #ffffff;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-field::placeholder {
+  color: #9ca3af;
+}
+
+.input-field:focus {
+  border-color: #0f5c4b;
+  box-shadow: 0 0 0 3px rgba(15, 92, 75, 0.1);
+}
+
+/* ---- Button ---- */
+.continue-btn {
+  width: 100%;
+  padding: 14px;
+  background: #0f5c4b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: all 0.2s ease;
+}
+
+.continue-btn:hover {
+  background: #0a4237;
+  transform: translateY(-1px);
+}
+
+.continue-btn:active {
+  transform: translateY(0);
+}
+
+/* Error */
+.error-msg {
+  color: red;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0px;
+  text-align: center;
+}
+
+/* ---- Footer ---- */
+
+/* ============================
+     Responsive
+============================ */
+
+@media (max-width: 480px) {
+  .page-wrapper {
+    padding: 100px 20px 10px;
+    align-items: center;
+  }
+
+  /* card */
+  .login-card {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  /* LOGO  */
+  .logo-img {
+    width: 140px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px;
+  }
+
+  /* HIDE TITLE */
+  .card-title {
+    display: none;
+  }
+
+  /* FORM FULL WIDTH */
+  .card-form {
+    width: 100%;
+    gap: 16px;
+  }
+
+  /* INPUT STYLE */
+  .input-field {
+    height: 50px;
+    border-radius: 12px;
+    background: #e5e7eb;
+    font-size: 16px;
+    padding: 0 16px;
+  }
+
+  /* Error */
+  .error-msg {
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+    text-align: center;
+  }
+
+  /* BUTTON STYLE */
+  .continue-btn {
+    height: 50px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  /* ICON POSITION */
+  .top-right-icons {
+    top: 20px;
+    right: 20px;
+  }
+}

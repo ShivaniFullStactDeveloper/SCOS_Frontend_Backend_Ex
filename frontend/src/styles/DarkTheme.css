@@ -1,0 +1,424 @@
+/* ============================
+    DARK THEME - LOGIN PAGE
+   ============================ */
+
+body.dark {
+  background: #101010;
+}
+
+/* PAGE */
+body.dark .page-wrapper {
+  background: #101010;
+}
+
+/* ICON BUTTONS (top right) */
+body.dark .icon-btn {
+  background: #0b0b0b;
+  border: 1px solid #2a2a2a;
+  color: #ffffff;
+}
+
+/* LOGIN CARD*/
+body.dark .login-card {
+  background: #0b0b0b;
+  box-shadow: none;
+}
+
+/* LOGO WHITE */
+body.dark .logo-img {
+  filter: brightness(0) invert(1);
+}
+
+/* TITLE */
+body.dark .card-title {
+  color: #ffffff;
+}
+
+/* INPUT FIELDS */
+body.dark .input-field {
+  border: 1.5px solid #424242;
+  color: #ffffff;
+  background: #424242;
+  transition: all 0.2s ease;
+}
+
+body.dark .input-field::placeholder {
+  color: #b0b0b0;
+}
+
+/* BUTTON */
+body.dark .continue-btn {
+  background: #065f46;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.dark .continue-btn:hover {
+  background: #047857;
+}
+
+/* ERROR */
+body.dark .error-msg {
+  color: #ff6b6b;
+}
+
+/* FOOTER */
+body.dark .footer-text {
+  color: #929292;
+}
+
+body.dark .footer-link {
+  color: #3b82f6;
+}
+
+/* ============================
+   INSTITUTE PAGE - DARK
+   ============================ */
+
+/* Container */
+body.dark .institute-container {
+  background: #101010;
+}
+
+/* Header */
+body.dark .header {
+  background: transparent;
+  color: #ffffff;
+}
+
+/* Logo white */
+body.dark .logo-image {
+  filter: brightness(0) invert(1);
+}
+
+/* Avatar */
+body.dark .avatar {
+  background: #010a13;
+  color: #ffffff;
+  border: 1px solid #373737;
+}
+
+/* Title */
+body.dark .title-section h2 {
+  color: #ffffff;
+}
+
+body.dark .title-section p {
+  color: #b0b0b0;
+}
+
+.logout-btn {
+  padding: 6px 14px;
+  background: #010a13;
+  color: #ffffff;
+  border: 1px solid #373737;
+}
+
+.logout-btn:hover {
+  transform: translateY(-2px);
+}
+/* ============================
+     SEARCH BAR
+     ============================ */
+
+body.dark .search-container input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.2px solid #101010;
+  box-shadow: 0px 0px 1px 1px rgba(7, 48, 93, 0.4);
+  color: #ffffff;
+}
+
+body.dark .search-container input::placeholder {
+  color: #929292;
+}
+
+/* ============================
+     INSTITUTE CARD
+     ============================ */
+body.dark .institute-card {
+  background: #181818;
+  border: 1px solid #2d2d2d;
+  border-radius: 16px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* Hover effect */
+body.dark .institute-card:hover {
+  border: 1px solid #2563eb;
+}
+
+/* Left side */
+body.dark .left h4 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+body.dark .location-icon {
+  fill: #9ca3af;
+}
+
+body.dark .location p {
+  color: #9ca3af;
+}
+
+/* Right side */
+body.dark .type {
+  color: #929292;
+}
+
+/* Arrow button */
+body.dark .arrow-btn {
+  background: #181818;
+  border: 1px solid #2d2d2d;
+}
+
+/* Arrow icon white */
+body.dark .arrow-btn svg path {
+  fill: #ffffff;
+  background: #282828;
+}
+
+/* ============================
+     MOBILE MATCH
+     ============================ */
+
+@media (max-width: 480px) {
+  body.dark .title-section h2 {
+    font-size: 24px;
+  }
+
+  body.dark .institute-card {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  body.dark .left img {
+    width: 42px;
+    height: 42px;
+  }
+
+  body.dark .arrow-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  body.dark .login-card {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+/* ============================
+     FOOTER (ROLE PAGE)
+     ============================ */
+body.dark .footer-text {
+  color: #929292;
+}
+
+body.dark .footer-link {
+  color: #3b82f6;
+}
+
+/* ============================
+ ROLE PAGE - DARK
+   ============================ */
+
+/* Container */
+body.dark .role-container {
+  background: #101010;
+}
+
+/* ============================
+     CHANGE INSTITUTE BUTTON
+     ============================ */
+
+body.dark .change-inst {
+  background: #111111;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+  border-radius: 999px;
+}
+
+/* ============================
+    SELECTED INSTITUTE CARD
+     ============================ */
+
+body.dark .selected-inst {
+  background: #181818;
+  border: 1px solid #2d2d2d;
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px 1px rgba(7, 48, 93, 0.4);
+}
+
+/* Text */
+body.dark .selected-inst h4 {
+  color: #ffffff;
+}
+
+body.dark .selected-inst p {
+  color: #929292;
+}
+
+/* ============================
+     TITLE
+     ============================ */
+
+body.dark .title-section h2 {
+  color: #ffffff;
+}
+
+body.dark .title-section p {
+  color: #929292;
+}
+
+/* ============================
+     ROLE CARD
+     ============================ */
+
+body.dark .role-card {
+  background: linear-gradient(145deg, #111111, #1a1a1a);
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+/* Hover glow */
+body.dark .role-card:hover {
+  border: 1px solid #2563eb;
+}
+
+/* Left text */
+body.dark .left h4 {
+  color: #ffffff;
+}
+
+body.dark .left p {
+  color: #929292;
+}
+
+/* Arrow button */
+body.dark .role-card .arrow-btn {
+  background: #181818;
+  border: 1px solid #2d2d2d;
+}
+
+/* Arrow icon white */
+body.dark .role-card .arrow-btn svg path {
+  fill: #ffffff;
+  background: #282828;
+}
+
+/* ============================
+ MOBILE 
+     ============================ */
+
+@media (max-width: 480px) {
+  body.dark .change-inst {
+    margin-top: 30px;
+    padding: 10px 18px;
+  }
+
+  body.dark .selected-inst {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  body.dark .role-card {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  body.dark .role-icon {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  body.dark .arrow-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* ============================
+ DASHBOARD - DARK THEME
+   ============================ */
+
+/* Container */
+body.dark .dashboard-container {
+  background: #101010;
+}
+
+/* ============================
+     TITLE
+     ============================ */
+
+body.dark .dashboard-title h2 {
+  color: #ffffff;
+}
+
+body.dark .dashboard-title h4 {
+  color: #929292;
+}
+
+/* ============================
+    DASHBOARD CARDS
+     ============================ */
+
+body.dark .dash-card {
+  background: linear-gradient(145deg, #111111, #1a1a1a);
+  border: 1px solid #2a2a2a;
+  border-radius: 18px;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+/* Hover effect */
+body.dark .dash-card:hover {
+  border: 1px solid #2563eb;
+}
+
+/* Numbers */
+body.dark .dash-card h2 {
+  color: #ffffff;
+}
+
+/* Titles */
+body.dark .dash-card h4 {
+  color: #ffffff;
+}
+
+/* Description */
+body.dark .dash-card p {
+  color: #929292;
+}
+
+/* ============================
+     REMOVE LIGHT COLORS
+     ============================ */
+
+/* Override colored cards */
+body.dark .blue,
+body.dark .green,
+body.dark .yellow,
+body.dark .purple {
+  background: linear-gradient(145deg, #111111, #1a1a1a);
+}
+
+/* ============================
+     MOBILE
+     ============================ */
+
+@media (max-width: 600px) {
+  body.dark .dashboard-title h2 {
+    font-size: 22px;
+  }
+
+  body.dark .dashboard-title h4 {
+    font-size: 16px;
+  }
+
+  body.dark .dash-card {
+    padding: 16px;
+  }
+}

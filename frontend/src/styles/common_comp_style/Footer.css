@@ -1,0 +1,31 @@
+/* ---- Footer ---- */
+.footer-text {
+  margin-top: auto;
+  text-align: center;
+  font-size: 13px;
+  color: #6b7280;
+  width: 100%;
+  padding: 20px 0;
+ 
+  bottom: 0;
+}
+
+.footer-login {
+  margin-bottom: -50px;
+  position: sticky;
+}
+
+.footer-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .footer-login {
+    margin-bottom: 0px;
+  }
+}
